@@ -1,0 +1,3 @@
+include ':sdktestlibrary'
+include ':app'
+rootProject.name = "SDK Test Application"
