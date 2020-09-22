@@ -41,7 +41,9 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     implementation 'com.google.android.material:material:1.2.0'
-    implementation "com.github.bumptech.glide:glide:${glideVersion}"
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation "com.squareup.moshi:moshi:1.9.3"
+//    implementation "com.github.bumptech.glide:glide:${glideVersion}"
 //    annotationProcessor "com.github.bumptech.glide:compiler:${glideVersion}"
     implementation 'androidx.annotation:annotation:1.1.0'
     testImplementation 'junit:junit:4.12'
