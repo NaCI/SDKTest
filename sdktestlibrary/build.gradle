@@ -42,8 +42,10 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     implementation 'com.google.android.material:material:1.2.0'
     implementation "com.github.bumptech.glide:glide:${glideVersion}"
+    implementation project(':volley-1.1.1')
 //    annotationProcessor "com.github.bumptech.glide:compiler:${glideVersion}"
     implementation 'androidx.annotation:annotation:1.1.0'
+    implementation files('libs/sdktestlibraryconstants-release.aar')
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
