@@ -1,7 +1,5 @@
 package com.naci.sdktestlibrary.ui.main.ui.login
 
-import android.graphics.Bitmap
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -9,18 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
-import android.widget.RemoteViews
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.bumptech.glide.Glide
-import com.bumptech.glide.GlideBuilder
 import com.naci.sdktestlibrary.R
 import com.naci.sdktestlibrary.SDKStarter
 import com.naci.sdktestlibrary.databinding.FragmentLoginBinding
-import java.util.concurrent.ExecutionException
 
 class LoginFragment : Fragment() {
 

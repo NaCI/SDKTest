@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.bumptech.glide.Glide
 import com.naci.sdktestlibrary.databinding.MainActivityBinding
 import com.naci.sdktestlibrary.ui.main.ui.login.LoginFragment
 
@@ -28,9 +27,5 @@ class MainActivity : AppCompatActivity() {
                 .replace(R.id.container, LoginFragment.newInstance())
                 .commitNow()
         }
-
-        Glide.with(this)
-            .load("http://www.gravatar.com/avatar/?d=identicon")
-            .into(binding.imgProfile)
     }
 }

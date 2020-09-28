@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.bumptech.glide.Glide
 import com.naci.sdktestlibrary.ConsumeTokenListener
 import com.naci.sdktestlibrary.SDKStarter
 
@@ -26,11 +25,6 @@ class MainActivity : AppCompatActivity() {
                     views.setImageViewBitmap(R.id.img_profile, resource)
                 }
             })*/
-
-        Glide.with(this)
-            .load("http://www.gravatar.com/avatar/?d=identicon")
-//            .transforms(CenterCrop(), RoundedCorners(20))
-            .into(imgProfile)
 
         SDKStarter.startSDKForSubmitConsumer(this, "MERCHANT_NAME", object : ConsumeTokenListener {
             override fun onSuccess(first6: String, last2: String) {
